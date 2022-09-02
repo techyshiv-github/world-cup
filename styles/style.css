@@ -3,10 +3,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
+
 }
 
 body {
-
+    overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -70,12 +73,12 @@ p {
     background-color: #161616;
     width: 312px;
     border-radius: 10px;
-    padding: 30px;
+    padding: 10px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 80px;
 }
 
 .three-button button {
@@ -84,5 +87,56 @@ p {
     font-weight: 500;
     border-radius: 10px;
     border: none;
+
+}
+
+#blog {
+    background-color: red;
+    color: white;
+}
+
+.blog-card {
+    width: 312px;
+
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+
+}
+
+
+
+.card-details {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+
+.card-button {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
 
 }
