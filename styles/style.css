@@ -135,8 +135,10 @@ p {
 }
 
 .blogs {
+    margin: 20px;
+    padding: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+    grid-gap: 10px;
 
 }
