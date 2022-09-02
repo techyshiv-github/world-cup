@@ -1,3 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
 h1 {
-    color: red;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+
+}
+
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.hero {
+    color: white;
+    background: #161616;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.hero-left {
+    width: 50%;
+    padding-left: 100px;
+
+
+}
+
+.hero-right img {
+    width: 100%;
+}
+
+.hero-right {
+    width: 50%;
+
+}
+
+
+.watch-button {
+    margin-top: 50px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 25px;
+    font-family: 'Poppins';
+}
+
+.three-button {
+    background-color: #161616;
+    width: 312px;
+    border-radius: 10px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.three-button button {
+    padding: 20px 60px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+
 }
